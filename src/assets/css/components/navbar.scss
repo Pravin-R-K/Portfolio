@@ -1,0 +1,72 @@
+@import "../global";
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: $color1;
+    color: $color2;
+    height: 90px;
+    width: 100%;
+    font-size: 18px;
+    border: 1px solid $color2;
+    border-radius: 0 0 25px 25px;
+    &:hover {
+        transition: 0.5s ease;
+        border-radius: 0 0 50px 50px;
+        box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+    }
+    .nav-left {
+        gap: 20px;
+        .links {
+            color: $color2;
+            text-decoration: none;
+            font-size: 35px;
+            font-weight: bold;
+            &:hover {
+                transition: 0.5s ease;
+                color: rgb(86, 87, 87);
+            }
+        }
+        .round {
+            height: 30px;
+            width: 30px;
+            background-color: $color4;
+            border-radius: 100%;
+        }
+        h5 {
+            color: #6c757d;
+            font-size: 20px;
+        }
+    }
+    .nav-right {
+        font-size: 20px;
+        gap: 80px;
+        .links {
+            color: $color2;
+            text-decoration: none;
+        }
+        #resume {
+            &:hover {
+                color: $color4;
+                scale: 1.1;
+                transition: 0.5s ease;
+            }
+        }
+        #projects {
+            &:hover {
+                color: $color5;
+                scale: 1.1;
+                transition: 0.5s ease;
+            }
+        }
+        #contact {
+            &:hover {
+                color: $color6;
+                scale: 1.1;
+                transition: 0.5s ease;
+            }
+        }
+    }
+}

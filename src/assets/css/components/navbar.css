@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Anta&family=Jersey+25&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", sans-serif;
+  background-color: #f3f3f3;
+  color: #000;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.flex {
+  display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.f-between {
+  justify-content: space-between;
+}
+
+.f-around {
+  justify-content: space-around;
+}
+
+.f-align-center {
+  align-items: center;
+}
+
+.f-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: #fff;
+  color: #000;
+  height: 90px;
+  width: 100%;
+  font-size: 18px;
+  border: 1px solid #000;
+  border-radius: 0 0 25px 25px;
+}
+nav:hover {
+  transition: 0.5s ease;
+  border-radius: 0 0 50px 50px;
+  box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+nav .nav-left {
+  gap: 20px;
+}
+nav .nav-left .links {
+  color: #000;
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: bold;
+}
+nav .nav-left .links:hover {
+  transition: 0.5s ease;
+  color: rgb(86, 87, 87);
+}
+nav .nav-left .round {
+  height: 30px;
+  width: 30px;
+  background-color: #efa302;
+  border-radius: 100%;
+}
+nav .nav-left h5 {
+  color: #6c757d;
+  font-size: 20px;
+}
+nav .nav-right {
+  font-size: 20px;
+  gap: 80px;
+}
+nav .nav-right .links {
+  color: #000;
+  text-decoration: none;
+}
+nav .nav-right #resume:hover {
+  color: #efa302;
+  scale: 1.1;
+  transition: 0.5s ease;
+}
+nav .nav-right #projects:hover {
+  color: #ff3b25;
+  scale: 1.1;
+  transition: 0.5s ease;
+}
+nav .nav-right #contact:hover {
+  color: #80d8da;
+  scale: 1.1;
+  transition: 0.5s ease;
+}/*# sourceMappingURL=navbar.css.map */

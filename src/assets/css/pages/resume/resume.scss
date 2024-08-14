@@ -1,0 +1,83 @@
+@import "../../global";
+
+div {
+    .resume-container {
+        position: absolute;
+        width: 100%;
+        gap: 10vh;
+        font-size: 20px;
+        #education {
+            margin-top: 120px;
+            h1 {
+                text-align: center;
+                font-size: 40px;
+            }
+            .eduContent {
+                height: 100%;
+                margin-top: 5vh;
+                gap: 3vh;
+                .eduContent1 {
+                    height: 30%;
+                    width: 100%;
+                    .eduYear {
+                        color: #6c757d;
+                    }
+                    .eduSchool {
+                        text-align: right;
+                    }
+                }
+            }
+            &:hover {
+                h1 {
+                    transition: 0.5s ease;
+                    color: $color4;
+                    scale: 1.1;
+                }
+            }
+        }
+        #tech-stack {
+            h1 {
+                text-align: center;
+                font-size: 40px;
+            }
+            .techContent {
+                height: 50vh;
+                margin-top: 5vh;
+                gap: 7vh;
+                .branch {
+                    width: 75%;
+                }
+            }
+            &:hover {
+                h1 {
+                    transition: 0.5s ease;
+                    color: $color5;
+                    scale: 1.1;
+                }
+            }
+        }
+        #soft-skills {
+            h1 {
+                text-align: center;
+                font-size: 40px;
+            }
+            .skillContent {
+                margin-top: 5vh;
+                height: 50vh;
+                p {
+                    font-size: 26px;
+                    span {
+                        font-weight: bold;
+                    }
+                }
+            }
+            &:hover {
+                h1 {
+                    transition: 0.5s ease;
+                    color: $color6;
+                    scale: 1.1;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+@import "../../global";
+
+div {
+    .dashboard {
+        position: relative;
+        width: 100%;
+        font-size: 20px;
+        height: 100vh;
+        gap: 100px;
+        .dashImg {
+            border-radius: 50%;
+        }
+        .dashCont {
+            height: 70%;
+            width: 40%;
+            h1 {
+                font-size: 80px;
+            }
+            .about {
+                h3 {
+                    font-size: 35px;
+                }
+                p {
+                    padding: 0px 10px;
+                    font-size: 18px;
+                }
+            }
+            .route {
+                gap: 50px;
+                .one {
+                    background-color: $color4;
+                }
+                .two {
+                    background-color: $color5;
+                }
+                .three {
+                    background-color: $color6;
+                }
+                .round {
+                    height: 150px;
+                    width: 150px;
+                    border-radius: 50%;
+                    font-weight: bold;
+                    font-size: 20px;
+                    border: 1px solid $color2;
+                    cursor: pointer;
+                    &:hover {
+                        transition: 1s ease;
+                        background-color: $color3;
+                        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+                    }
+                    .links {
+                        text-decoration: none;
+                        color: $color2;
+                    }
+                }
+            }
+        }
+    }
+}

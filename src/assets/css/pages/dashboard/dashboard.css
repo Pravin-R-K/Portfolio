@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Anta&family=Jersey+25&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", sans-serif;
+  background-color: #f3f3f3;
+  color: #000;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.flex {
+  display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.f-between {
+  justify-content: space-between;
+}
+
+.f-around {
+  justify-content: space-around;
+}
+
+.f-align-center {
+  align-items: center;
+}
+
+.f-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+div .dashboard {
+  position: relative;
+  width: 100%;
+  font-size: 20px;
+  height: 100vh;
+  gap: 100px;
+}
+div .dashboard .dashImg {
+  border-radius: 50%;
+}
+div .dashboard .dashCont {
+  height: 70%;
+  width: 40%;
+}
+div .dashboard .dashCont h1 {
+  font-size: 80px;
+}
+div .dashboard .dashCont .about h3 {
+  font-size: 35px;
+}
+div .dashboard .dashCont .about p {
+  padding: 0px 10px;
+  font-size: 18px;
+}
+div .dashboard .dashCont .route {
+  gap: 50px;
+}
+div .dashboard .dashCont .route .one {
+  background-color: #efa302;
+}
+div .dashboard .dashCont .route .two {
+  background-color: #ff3b25;
+}
+div .dashboard .dashCont .route .three {
+  background-color: #80d8da;
+}
+div .dashboard .dashCont .route .round {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+div .dashboard .dashCont .route .round:hover {
+  transition: 1s ease;
+  background-color: #f3f3f3;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+div .dashboard .dashCont .route .round .links {
+  text-decoration: none;
+  color: #000;
+}/*# sourceMappingURL=dashboard.css.map */

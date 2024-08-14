@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Anta&family=Jersey+25&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", sans-serif;
+  background-color: #f3f3f3;
+  color: #000;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.flex {
+  display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.f-between {
+  justify-content: space-between;
+}
+
+.f-around {
+  justify-content: space-around;
+}
+
+.f-align-center {
+  align-items: center;
+}
+
+.f-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+div .contact-page {
+  position: absolute;
+  width: 100%;
+  font-size: 20px;
+  margin-top: 90px;
+  height: calc(100% - 90px);
+}
+div .contact-page .cont-left {
+  height: 50%;
+}
+div .contact-page .cont-left p {
+  color: #6c757d;
+}
+div .contact-page .cont-right {
+  height: 55%;
+  width: 45%;
+}
+div .contact-page .cont-right .parts {
+  width: 100%;
+  gap: 3vh;
+}
+div .contact-page .cont-right .parts .sub-part {
+  gap: 15px;
+}
+div .contact-page .cont-right .parts .sub-part input {
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  height: 20px 25px;
+  width: 270px;
+}
+div .contact-page .cont-right .parts .sub-part input:focus {
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+div .contact-page .cont-right .last-part {
+  width: 100%;
+}
+div .contact-page .cont-right .last-part .sub-part {
+  gap: 15px;
+}
+div .contact-page .cont-right .last-part textarea {
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+}
+div .contact-page .cont-right .last-part textarea:focus {
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+div .contact-page .cont-right .last-part button {
+  font-size: 16px;
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+div .contact-page .cont-right .last-part button:hover {
+  background-color: #80d8da;
+  border-radius: 10px;
+  transition: 0.5s ease;
+  scale: 1.1;
+}/*# sourceMappingURL=contact.css.map */

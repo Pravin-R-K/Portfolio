@@ -1,0 +1,68 @@
+@import "../../global";
+
+div {
+    .contact-page {
+        position: absolute;
+        width: 100%;
+        font-size: 20px;
+        margin-top: 90px;
+        height: calc(100% - 90px);
+        .cont-left {
+            height: 50%;
+            p {
+                color: #6c757d;
+            }
+        }
+        .cont-right {
+            height: 55%;
+            width: 45%;
+            .parts {
+                width: 100%;
+                gap: 3vh;
+                .sub-part {
+                    gap: 15px;
+                    input {
+                        outline: none;
+                        padding: 10px;
+                        font-size: 18px;
+                        height: 20px 25px;
+                        width: 270px;
+                        &:focus {
+                            border: 2px solid $color2;
+                            border-radius: 8px;
+                        }
+                    }
+                }
+            }
+            .last-part {
+                width: 100%;
+                .sub-part {
+                    gap: 15px;
+                }
+                textarea {
+                    outline: none;
+                    padding: 10px;
+                    font-size: 18px;
+                    &:focus {
+                        border: 2px solid $color2;
+                        border-radius: 8px;
+                    }
+                }
+                button {
+                    font-size: 16px;
+                    width: 150px;
+                    height: 50px;
+                    background-color: $color1;
+                    border: 2px solid $color2;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: $color6;
+                        border-radius: 10px;
+                        transition: 0.5s ease;
+                        scale: 1.1;
+                    }
+                }
+            }
+        }
+    }
+}

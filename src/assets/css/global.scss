@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Anta&family=Jersey+25&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+
+$font: "Merriweather", sans-serif;
+$color1: #fff;
+$color2: #000;
+$color3: #f3f3f3;
+$color4: #efa302;
+$color5: #ff3b25;
+$color6: #80d8da;
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font;
+    background-color: $color3;
+    color: $color2;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.flex {
+    display: flex;
+}
+
+.f-column {
+    flex-direction: column;
+}
+
+.f-between {
+    justify-content: space-between;
+}
+
+.f-around {
+    justify-content: space-around;
+}
+
+.f-align-center {
+    align-items: center;
+}
+
+.f-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Anta&family=Jersey+25&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", sans-serif;
+  background-color: #f3f3f3;
+  color: #000;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.flex {
+  display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.f-between {
+  justify-content: space-between;
+}
+
+.f-around {
+  justify-content: space-around;
+}
+
+.f-align-center {
+  align-items: center;
+}
+
+.f-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+div .resume-container {
+  position: absolute;
+  width: 100%;
+  gap: 10vh;
+  font-size: 20px;
+}
+div .resume-container #education {
+  margin-top: 120px;
+}
+div .resume-container #education h1 {
+  text-align: center;
+  font-size: 40px;
+}
+div .resume-container #education .eduContent {
+  height: 100%;
+  margin-top: 5vh;
+  gap: 3vh;
+}
+div .resume-container #education .eduContent .eduContent1 {
+  height: 30%;
+  width: 100%;
+}
+div .resume-container #education .eduContent .eduContent1 .eduYear {
+  color: #6c757d;
+}
+div .resume-container #education .eduContent .eduContent1 .eduSchool {
+  text-align: right;
+}
+div .resume-container #education:hover h1 {
+  transition: 0.5s ease;
+  color: #efa302;
+  scale: 1.1;
+}
+div .resume-container #tech-stack h1 {
+  text-align: center;
+  font-size: 40px;
+}
+div .resume-container #tech-stack .techContent {
+  height: 50vh;
+  margin-top: 5vh;
+  gap: 7vh;
+}
+div .resume-container #tech-stack .techContent .branch {
+  width: 75%;
+}
+div .resume-container #tech-stack:hover h1 {
+  transition: 0.5s ease;
+  color: #ff3b25;
+  scale: 1.1;
+}
+div .resume-container #soft-skills h1 {
+  text-align: center;
+  font-size: 40px;
+}
+div .resume-container #soft-skills .skillContent {
+  margin-top: 5vh;
+  height: 50vh;
+}
+div .resume-container #soft-skills .skillContent p {
+  font-size: 26px;
+}
+div .resume-container #soft-skills .skillContent p span {
+  font-weight: bold;
+}
+div .resume-container #soft-skills:hover h1 {
+  transition: 0.5s ease;
+  color: #80d8da;
+  scale: 1.1;
+}/*# sourceMappingURL=resume.css.map */
